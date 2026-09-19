@@ -1,0 +1,102 @@
+:root {
+
+  /* Minimal Neutral Theme */
+  --black: #1f1f1f;
+  --dark-gray: #2f2f2f;
+  --gray: #6b6b6b;
+  --gray-light: #a8a8a8;
+  --gray-pale: #e8e6e1;
+
+  /* Cream */
+  --cream: #f5f1e8;
+  --cream-dark: #e9e3d7;
+
+  /* Text */
+  --text-dark: #222222;
+  --text: #5f5f5f;
+  --white: #ffffff;
+}
+
+
+/* Body */
+
+body {
+  padding-top: 80px;
+  background-color: var(--cream);
+}
+
+
+/* Navbar */
+
+.navbar {
+  background-color: var(--white) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--text-dark) !important;
+}
+
+
+/* About */
+
+#About {
+  background-color: var(--black) !important;
+}
+
+#About h1,
+#About p {
+  color: var(--white) !important;
+}
+
+
+/* Skills */
+
+#Skills {
+  background-color: var(--gray-pale) !important;
+}
+
+#Skills h2 {
+  color: var(--text-dark);
+}
+
+#Skills .card {
+  background-color: var(--white);
+  border-color: var(--cream-dark);
+}
+
+#Skills .card-title {
+  color: var(--text-dark);
+}
+
+#Skills .card-text,
+#Skills li {
+  color: var(--text);
+}
+
+
+/* Project */
+
+#Project {
+  background-color: var(--cream) !important;
+}
+
+#Project h2 {
+  color: var(--text-dark);
+}
+
+#Project p {
+  color: var(--text);
+}
+
+
+/* Contact */
+
+#Contact {
+  background-color: var(--dark-gray);
+}
+
+#Contact h2,
+#Contact a {
+  color: var(--white) !important;
+}

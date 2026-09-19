@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 80px;
+}
+
+.profile-hero {
+    padding: 100px 0;
+
+    background-color: #f8f9fa;
+}
+
+
+.profile-image {
+    width: 280px;
+    height: 280px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+
+.section-title {
+    font-weight: bold;
+}
+
+
+.contact-section {
+    background-color: #f8f9fa;
+}
